@@ -11,7 +11,7 @@
             $this->nombre = $nombre;
             $this->direccion = $direccion;
             $this->codigo = $codigo;
-            $this->correo = &correo;
+            $this->correo = $correo;
             
             return true;
         }
